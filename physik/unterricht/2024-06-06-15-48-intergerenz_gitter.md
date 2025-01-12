@@ -1,5 +1,5 @@
 ---
-title: 'Wellen'
+title: 'Wellenoptik'
 subtitle: 'Interferenz Gitter Versuch'
 author: Niklas von Hirschfeld
 date: 2024-06-06

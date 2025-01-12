@@ -12,6 +12,10 @@ titlepage: false
 ---
 
 ```{=context}
+\setupwhitespace[big]
+```
+
+```{=context}
 \setupindenting[no] % Small indent for paragraphs
 ```
  
@@ -65,3 +69,48 @@ Hinweis auf die Charta der Vereinten Nationen;
 Diese Resolution zielt darauf ab, eine friedliche, diplomatische Lösung
 zu fördern und die Gefahr eines Bürgerkriegs auf Isla Complicada zu
 verhindern.
+
+# Protokoll:
+
+## 2024-09-12:
+
+**Ergebnisse:**
+
+- Neuwahlen:
+    - Ja
+    - China: Erst nach Abrüstung
+- Ultimatum:
+    - Veto: USA
+- Abrüstung:
+    - Veto: USA
+- Waffenstillstand:
+    - Ja
+- Beobachtungsmission:
+    - Veto: Russland
+
+## 2024-09-13
+
+**Ergebnisse:**
+
+- Humaitäre Hilfe:
+    - Zustimmung: Alle
+- Embargo-Waffen
+
+---
+
+```{=context}
+\startalignment[middle]
+```
+
+**Der UN-Scherheitsrat fordert:**
+
+```{=context}
+\stopalignment
+```
+
+- **Vorschlag GB:** 
+    1. sofortige humaitäre Hilfe 
+    2. sofotiger Waffenstillstand 
+    3. UN-Beobachtungsmission falls nötig
+    4. Abrüstung
+    5. Neuwahlen

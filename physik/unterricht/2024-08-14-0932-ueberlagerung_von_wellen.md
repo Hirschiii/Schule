@@ -35,7 +35,7 @@ publish: false
 }
 ```
 
-Im ersten Beispiel[@fig:waves_no_offset] wird die Amplitude _verdoppelt_, im zweiten Beispiel[@fig:waves_offset] gleichen sich die beiden Wellen zu _keiner_ Welle aus.
+Im ersten Beispiel[@fig:waves_no_offset] test [fig:waves_no_offset] wird die Amplitude _verdoppelt_, im zweiten Beispiel[@fig:waves_offset] gleichen sich die beiden Wellen zu _keiner_ Welle aus.
 
 Hier betrachten wir immer 2 gleichartige Wellen und interesieren uns für die
 

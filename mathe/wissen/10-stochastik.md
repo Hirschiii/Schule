@@ -13,6 +13,17 @@ environments: []
 
 # Begriffe
 
-| Begriff | Zeichen  | Beschreibung |
-| --- | --- | --- |
-| Standardabweichung | $\sigma$ |  Arithmetische Mittel der quadrierten Abweichungen |
+| Begriff | Zeichen  | Beschreibung | Auf Seite |
+| --- | --- | --- | --- |
+| Standardabweichung | $\sigma$ |  Arithmetische Mittel der quadrierten Abweichungen | \at[standardabweichung] |
+
+## Standardabweichung
+
+::: {.definition title="Standardabweichung"}
+Arithmetische Mittel der Varianz
+
+$$
+\sigma = \sqrt{V}
+$$
+:::
+
