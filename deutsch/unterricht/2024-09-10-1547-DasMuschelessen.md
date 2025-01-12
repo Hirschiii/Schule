@@ -35,6 +35,10 @@ environments: []
 
 ### S. 44
 
+- Sehr hart erzogen
+- Hat hohe erwartungen an sich selber
+- Vergleicht sich mit seinem Vater
+
 ### S. 78
 
 ### S. 98

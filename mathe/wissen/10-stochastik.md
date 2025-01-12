@@ -19,7 +19,11 @@ environments: []
 
 ## Standardabweichung
 
-::: {.math title="Stochastik Standardabweichung" reference="stochastik:standardabweichung" }
+::: {.definition title="Standardabweichung"}
+Arithmetische Mittel der Varianz
+
+$$
 \sigma = \sqrt{V}
+$$
 :::
 
