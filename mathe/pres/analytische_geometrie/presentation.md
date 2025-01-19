@@ -291,9 +291,14 @@ $\vec{a}$ und $\vec{b}$ sind kollinear, $\vec{a}$ und $\vec{b}$ zu $\vec{c}$ abe
 
 ## zwischen den Darstellungsformen wechseln
 
+::: columns
+
+:::: column
+
 ### Ebene: Parameterform -> Koordinatenform
 
 $$
+E: \vec{x}=\vec{a} + s \cdot \vec{v}+r \cdot \vec{v}
 \begin{aligned}
 \vec{n}&=\vec{u}\times \vec{v}&&\\
 \Rightarrow \vec{n}&=
@@ -311,7 +316,31 @@ $$
 E: a\cdot \vec{x_1}+b\cdot \vec{x_2} + c \cdot \vec{x_3} = d
 $$
 
+::::
+
+:::: column
+
+### Kreuzprodukt:
+
+$$
+\vec{a} \times \vec{b} = \begin{pmatrix}
+a_2 \cdot b_3 - a_3 \cdot b_2 \\
+a_3 \cdot b_1 - a_1 \cdot b_3 \\
+a_1 \cdot b_2 - a_2 \cdot b_1
+\end{pmatrix}
+$$
+
+::::
+
+:::
+
+
 ---
+
+
+::: columns
+
+:::: column
 
 ### Ebene: Parameterform <- Koordinatenform
 
@@ -319,6 +348,34 @@ $$
 2. Mit diesen die Ebene aufspannen.
     1. $\vec{a}$ ist ein Stützvektor eines beliebiegen Punktes
     2. $\vec{u}$ und $\vec{v}$ sind Vektoren, welche von $\vec{a}$ aus auf einen Punkt in der Ebene zeigen. Sie dürfen nicht Kollinear sein, da sie die Ebene aufspannen müssen.
+
+::::
+
+:::: column
+
+### Skalarprodukt
+
+$$
+\begin{aligned}
+\vec{a} \cdot \vec{b} &= 
+\begin{pmatrix}
+a_1 \\ a_2 \\ a_3
+\end{pmatrix}
+\cdot
+\begin{pmatrix}
+b_1 \\ b_2 \\ b_3
+\end{pmatrix} &&\\
+&= 
+a_1 \cdot b_1 +
+a_2 \cdot b_2 +
+a_3 \cdot b_3
+\end{aligned}
+$$
+
+::::
+
+:::
+
 
 ---
 
