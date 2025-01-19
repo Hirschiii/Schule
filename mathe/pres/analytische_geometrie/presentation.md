@@ -89,12 +89,6 @@ https://cuvo.nibis.de/cuvo.php?p=download&upload=208
 - Geaden: $g: \vec{x}=\vec{a}+r\cdot \vec{u}$
 - Ebenen: $E: \vec{x}=\vec{a}+r\cdot \vec{u} + s \cdot \vec{v}$
 
-### 
-
-Bin mir nicht ganz sicher was genau hier hin soll
-
-
-
 ## Addition, Subtraktion und skalare Multiplikation von Vektoren
 
 | Operation               | Definition                              | Beispiel (2D)                               |
@@ -185,7 +179,7 @@ $$
 \vec{a}\cdot x = \vec{b} \quad ; \quad \vec{a}\cdot x \neq \vec{c}
 $$
 
-\onslide<2> $\vec{a}$ und $\vec{b}$ sind kollinear, $\vec{a}$ und $\vec{b}$ zu $\vec{c}$ aber nicht.
+$\vec{a}$ und $\vec{b}$ sind kollinear, $\vec{a}$ und $\vec{b}$ jeweils zu $\vec{c}$ aber nicht.
 
 ::::
 
@@ -215,35 +209,44 @@ $$
 
 # Darstellungsformen
 
-## Geradengleichungen
-
-- Parameterform: $g: \vec{x}=\vec{a}+r\cdot \vec{u}$
-- Koordinatenform: $g: a\cdot \vec{x_1}+b\cdot \vec{x_2}=c$
-
-
----
-
 ### Parameterform:
+
+::: columns
+
+:::: column
+
+$$
+g: \vec{x}=\vec{a}+r\cdot \vec{u}
+$$
+
+::::
+
+:::: column
 
 \begin{center}
 \begin{tikzpicture}
-    \definecolor{darkgreen}{rgb}{0.0, 0.5, 0.0}
-    % Achsen
-    \draw[->] (-1, 0) -- (6, 0) node[below] {\(x\)};
-    \draw[->] (0, -1) -- (0, 5) node[left] {\(y\)};
-    
-    % Gerade
-    \draw[thick, red] (-1, 4) -- (5, 1) node[above right] {\(\vec{g}\)};
+\definecolor{darkgreen}{rgb}{0.0, 0.5, 0.0}
+% Achsen
+\draw[->] (-1, 0) -- (6, 0) node[below] {\(x\)};
+\draw[->] (0, -1) -- (0, 5) node[left] {\(y\)};
 
-    % Richtungsvektor u
-    \draw[->, thick, darkgreen] (1, 3) -- (3, 2) node[midway, above, sloped] {\(r \cdot \vec{u} = r \cdot \begin{pmatrix} 2 \\ -1 \end{pmatrix}\)};
+% Gerade
+\draw[thick, red] (-1, 4) -- (5, 1) node[above right] {\(\vec{g}\)};
 
-    % Ortsvektor a
-    \draw[->, thick, blue] (0, 0) -- (1, 3) node[midway, above, sloped] {\(\vec{a} = \begin{pmatrix} 1 \\ 3 \end{pmatrix}\)};
-    
-    
+% Richtungsvektor u
+\draw[->, thick, darkgreen] (1, 3) -- (3, 2) node[midway, above, sloped] {\(r \cdot \vec{u} = r \cdot \begin{pmatrix} 2 \\ -1 \end{pmatrix}\)};
+
+% Ortsvektor a
+\draw[->, thick, blue] (0, 0) -- (1, 3) node[midway, above, sloped] {\(\vec{a} = \begin{pmatrix} 1 \\ 3 \end{pmatrix}\)};
+
+
 \end{tikzpicture}
 \end{center}
+
+::::
+
+:::
+
 
 ## Ebenengleichungen
 
@@ -457,9 +460,9 @@ Beide zu untersuchenden Geraden, bzw Ebenen, gleichsetzen.
 
 1. Hilfebene $E$ mit dem Richtungsvektor $\vec{r}$ von $g$ als $\vec{n}$ aufstellen
 
-$$
-E: r_1x_1 + r_2x_2 + r_3x_3 = k
-$$
+    $$
+    E: r_1x_1 + r_2x_2 + r_3x_3 = k
+    $$
 
 2. Schnittpunkt $S$ bestimmen
 3. Länge von $\vec{SR}$ berechnen
