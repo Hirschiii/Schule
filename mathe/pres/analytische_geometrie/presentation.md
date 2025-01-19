@@ -511,8 +511,8 @@ $$
 
 ### Geraden können:
 
-- sich schneiden, wenn ihre Richtungsvektoren linear unabhhängig sind und $g: x = h: x$.
-- windschief zueinander sein, wenn ihre Richtungsvektoren linear unabhhängig sind und $g:x \neq h:x$.
+- sich schneiden, wenn ihre Richtungsvektoren linear unabhhängig sind und $g: x = h: x$ für genau **ein** $x$ gilt.
+- windschief zueinander sein, wenn ihre Richtungsvektoren linear unabhhängig sind und $g:x \neq h:x$ **immer** gilt.
 - parallel und verschieden sein, wenn ihre Richtungsvekoren kollinear sind und der Punkt $P$ von $g$ nicht auf $h$ liegt.
 - parallel und identisch sein, wenn ihre Richtungsvekoren kollinear sind und der Punkt $P$ von $g$ auf $h$ liegt.
 
