@@ -86,7 +86,7 @@ https://cuvo.nibis.de/cuvo.php?p=download&upload=208
 - Ortsvektor: $\vec{OP}$
 - Verbindungsvektor: $\vec{AB}=\begin{pmatrix}a_1-b_1\\a_2-b_2\end{pmatrix}$
 - Strecke eines Vektor: $|\vec{AB}|$
-- Geaden: $g: \vec{x}=\vec{a}+r\cdot \vec{u}$
+- Geraden: $g: \vec{x}=\vec{a}+r\cdot \vec{u}$
 - Ebenen: $E: \vec{x}=\vec{a}+r\cdot \vec{u} + s \cdot \vec{v}$
 
 ## Addition, Subtraktion und skalare Multiplikation von Vektoren
@@ -374,7 +374,7 @@ $$
 
 1. Drei verschiedene Punkte auf der Ebene finden
 2. Mit diesen die Ebene aufspannen.
-    1. $\vec{a}$ ist ein Stützvektor eines beliebiegen Punktes
+    1. $\vec{a}$ ist ein Stützvektor eines beliebigen Punktes
     2. $\vec{u}$ und $\vec{v}$ sind Vektoren, welche von $\vec{a}$ aus auf einen Punkt in der Ebene zeigen. Sie dürfen nicht Kollinear sein, da sie die Ebene aufspannen müssen.
 
 ::::
@@ -458,7 +458,7 @@ Beide zu untersuchenden Geraden, bzw Ebenen, gleichsetzen.
 
 ### Punkt $R$ zu einer Gerade $g$:
 
-1. Hilfebene $E$ mit dem Richtungsvektor $\vec{r}$ von $g$ als $\vec{n}$ aufstellen
+1. Hilfsebene $E$ mit dem Richtungsvektor $\vec{r}$ von $g$ als $\vec{n}$ aufstellen
 
     $$
     E: r_1x_1 + r_2x_2 + r_3x_3 = k
@@ -508,14 +508,14 @@ $$
 $$
 
 - Für Vektoren, die in dieselbe Richtung zeigen, gilt: $\alpha = 0^\circ$
-- Für Vektoren, die in entgegengesetze Richtung zeigen, gilt: $\alpha = 180^\circ$
+- Für Vektoren, die in endgegengesetze Richtung zeigen, gilt: $\alpha = 180^\circ$
 
 ## Lagebeziehungen:
 
 ### Geraden können:
 
-- sich schneiden, wenn ihre Richtungsvektoren linear unabhhängig sind und $g: x = h: x$ für genau **ein** $x$ gilt.
-- windschief zueinander sein, wenn ihre Richtungsvektoren linear unabhhängig sind und $g:x \neq h:x$ **immer** gilt.
+- sich schneiden, wenn ihre Richtungsvektoren linear unabhängig sind und $g: x = h: x$ für genau **ein** $x$ gilt.
+- windschief zueinander sein, wenn ihre Richtungsvektoren linear unabhängig sind und $g:x \neq h:x$ **immer** gilt.
 - parallel und verschieden sein, wenn ihre Richtungsvekoren kollinear sind und der Punkt $P$ von $g$ nicht auf $h$ liegt.
 - parallel und identisch sein, wenn ihre Richtungsvekoren kollinear sind und der Punkt $P$ von $g$ auf $h$ liegt.
 
@@ -533,4 +533,4 @@ $$
 
 - sich entlang einer Schnittgeraden schneiden, wenn $\vec{n_1}$ und $\vec{n_2}$ linear unabhängig sind.
 - parallel zueinander sein, wenn $\vec{n_1}$ und $\vec{n_2}$ kollinear sind und $P \notin E$.
-- identisch und parallen zueinander sein, wenn n und n kollinear sind und $P \in E$.
+- identisch und parallel zueinander sein, wenn n und n kollinear sind und $P \in E$.
