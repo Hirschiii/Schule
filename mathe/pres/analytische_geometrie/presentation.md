@@ -13,12 +13,37 @@ aspectratio: 169
 date: 2025-01-12
 lang: de-DE
 section-titles: false
-toc: true
+toc: false
 header-includes: 
     - \usepackage{tikz}
 ---
 
+# Kerncurriculum
 
+- Raumanschauung und Koordinatisierung
+  - Punkte und Vektoren in Ebene und Raum durch Tupel beschreiben
+  - die bildliche Darstellung und Koordinatisierung zur Beschreibung von Punkten, Strecken, ebenen Flächen und einfachen Körpern nutzen
+  - Addition, Subtraktion und skalare Multiplikation von Vektoren anwenden und geometrisch veranschaulichen
+  - Kollinearität zweier Vektoren überprüfen
+- Darstellungsformen
+  - Geraden- und Ebenengleichungen in Parameterform verwenden
+  - Ebenengleichungen in Normalen- und Koordinatenform verwenden
+  - zwischen den Darstellungsformen wechseln
+- Maße und Lagen
+  - Abstände zwischen Punkten, Geraden und Ebenen bestimmen
+  - Skalarprodukt geometrisch als Ergebnis einer Projektion deuten und verwenden
+  - Orthogonalität zweier Vektoren überprüfen
+  - Winkelgrößen bestimmen
+  - Lagebeziehungen von Geraden, Geraden und Ebenen sowie von Ebenen untersuchen und Schnittprobleme lösen
+  - den Gauß-Algorithmus zur Lösung linearer Gleichungssysteme erläutern und in geeigneten Fällen anwenden
+
+---
+
+### Kerncurriculum für das Gymnasium
+
+S. 51
+
+https://cuvo.nibis.de/cuvo.php?p=download&upload=208
 
 # Raumanschauung und Koordinatisierung
 
@@ -157,10 +182,10 @@ Bin mir nicht ganz sicher was genau hier hin soll
 - In einfach: Beide "zeigen" in die selbe Richtung
 
 $$
-\vec{a}\cdot x = \vec{b} \quad \vec{a}\cdot x \neq \vec{c}
+\vec{a}\cdot x = \vec{b} \quad ; \quad \vec{a}\cdot x \neq \vec{c}
 $$
 
-$\vec{a}$ und $\vec{b}$ sind kollinear, $\vec{a}$ und $\vec{b}$ zu $\vec{c}$ aber nicht.
+\onslide<2> $\vec{a}$ und $\vec{b}$ sind kollinear, $\vec{a}$ und $\vec{b}$ zu $\vec{c}$ aber nicht.
 
 ::::
 
@@ -348,9 +373,104 @@ $$
 #   Maße und Lagen
 
 ## Abstände zwischen Punkten, Geraden und Ebenen bestimmen
-## Skalarprodukt geometrisch als Ergebnis einer Projektion deuten und verwenden
-## Orthogonalität zweier Vektoren überprüfen
-## Winkelgrößen bestimmen
-## Lagebeziehungen von Geraden, Geraden und Ebenen sowie von Ebenen untersuchen und Schnittprobleme lösen
-## den Gauß-Algorithmus zur Lösung linearer Gleichungssysteme erläutern und in geeigneten Fällen anwenden
 
+### Zwischen zwei Punkten
+
+$Q(q_1|q_2|q_3)$ und $P(p_1|p_2|p_3)$:
+
+$$
+A=\sqrt{(p_1 - q_1)^2 + (p_2 - q_2)^2 + (p_3 - q_3)^2}
+$$
+
+---
+
+### Zwischen einem Punkt $R$ und einer Ebene $E$
+
+1. Gerade $g: \vec{x}=\vec{OR}+t\cdot \vec{n}$
+2. Schnittpunkt $S$ von $g$ und $E$ berechnen.
+3. Länge von $\vec{SR}$ berechnen.
+
+### Schnittpunkt
+
+Beide zu untersuchenden Geraden, bzw Ebenen, gleichsetzen.
+
+--- 
+
+### Punkt $R$ zu einer Gerade $g$:
+
+1. Hilfebene $E$ mit dem Richtungsvektor $\vec{r}$ von $g$ als $\vec{n}$ aufstellen
+
+$$
+E: r_1x_1 + r_2x_2 + r_3x_3 = k
+$$
+
+2. Schnittpunkt $S$ bestimmen
+3. Länge von $\vec{SR}$ berechnen
+
+---
+
+### Länge von Vektor berechnen
+
+::: columns
+
+:::: column
+
+$$
+|\vec{v}|=\sqrt{x_1^2 + x_2^2 + x_3^2}
+$$
+
+::::
+
+:::: column
+
+![Quelle (wurde bearbeitet): https://pt.pinterest.com/pin/388365167865810820/](./vektor.png){ height=500px }
+
+::::
+
+:::
+
+---
+
+### Skalarprodukt
+
+$$
+\vec{a}\cdot \vec{b}=a_1\cdot b_1 + a_2\cdot b_2 + a_3\cdot b_3
+$$
+
+### Orthogonalität
+
+Wenn das Skalarprodukt $=0$, dann sind $\vec{a} \perp \vec{b}$, $\vec{a}$ und $\vec{b}$ orthogonal.
+
+### Winkelgröße
+
+$$
+\cos{\alpha}=\frac{\vec{a}\cdot \vec{b}}{|\vec{a}| \cdot |\vec{b}|}
+$$
+
+- Für Vektoren, die in dieselbe Richtung zeigen, gilt: $\alpha = 0^\circ$
+- Für Vektoren, die in entgegengesetze Richtung zeigen, gilt: $\alpha = 180^\circ$
+
+## Lagebeziehungen:
+
+### Geraden können:
+
+- sich schneiden, wenn ihre Richtungsvektoren linear unabhhängig sind und $g: x = h: x$.
+- windschief zueinander sein, wenn ihre Richtungsvektoren linear unabhhängig sind und $g:x \neq h:x$.
+- parallel und verschieden sein, wenn ihre Richtungsvekoren kollinear sind und der Punkt $P$ von $g$ nicht auf $h$ liegt.
+- parallel und identisch sein, wenn ihre Richtungsvekoren kollinear sind und der Punkt $P$ von $g$ auf $h$ liegt.
+
+---
+
+### Geraden und Ebenen können:
+
+- sich Schneiden, wenn $\vec{n} \cdot \vec{g} = 0$.
+- Parallel zueinander sein und haben keinen gemeinsamen Punkt, wenn $\vec{n} \cdot \vec{g} = 0 \quad P \notin E$.
+- Parallel zueinander sein und haben unendlich viele gemeinsame Punkte, wenn $\vec{n} \cdot \vec{g} = 0 \quad P \in E$.
+
+---
+
+### Ebenen können:
+
+- sich entlang einer Schnittgeraden schneiden, wenn $\vec{n_1}$ und $\vec{n_2}$ linear unabhängig sind.
+- parallel zueinander sein, wenn $\vec{n_1}$ und $\vec{n_2}$ kollinear sind und $P \notin E$.
+- identisch und parallen zueinander sein, wenn n und n kollinear sind und $P \in E$.
